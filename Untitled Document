@@ -1,0 +1,16 @@
+django admin startproject
+
+
+python3 manage.py runserver
+
+django-admin startapp class(app name)
+
+(creating a django project)
+inside the created project creat an app
+in the project setting file , install the app
+inside the app folde , creat a url folder 
+in the project file import include
+creat a default path url/path and include your app's urls file
+in the app uels file within the urls pattern creat a default path/urls and specify the function , dont forget to import views
+in the views files, define the functions reffrenced in the app urls
+

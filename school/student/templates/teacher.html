@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h4>teachers list </h4>
+<table>
+    <tr>
+        <td>id</td>
+        <td>name</td>
+        <td>no</td>
+        <td>email</td>
+    </tr>
+    {% for y in teacher  %}
+    <tr>
+        <td>{{ y.id }}</td>
+        <td>{{ y.name }}</td>
+        <td>{{ y.tsc_no }}</td>
+        <td>{{ y.email }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>

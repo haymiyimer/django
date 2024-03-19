@@ -1,0 +1,17 @@
+.n{
+    color: darkslategrey;
+    font-style: oblique;
+    background-color: greenyellow;
+
+}
+body{
+    background-color:darkgray;
+
+}
+img{
+    width: 500px;
+    height: 50vh;
+    border-radius:20px 30px 40px ;
+}
+
+
